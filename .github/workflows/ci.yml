@@ -19,6 +19,7 @@ jobs:
       postgres:
         image: postgres:12
         env:
+          POSTGRES_USER: root
           POSTGRES_PASSWORD: password
           POSTGRED_DB: simple_bank
         ports:
